@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+<head>
+<title>Validation Form</title>
+<link rel="stylesheet" text="type/css" href="Ass4.css">
+<script type="text/javascript" src="try.js"></script>
+</head>
+
+<body>
+<center>
+<form>
+	<h1>Registration form</h1>
+
+	<table id="table1">
+	<tr>
+	<td>First Name <ru>*<ru>:</td>
+	<td><input type="text" id="first" onblur="funfname()" /></td>
+	<td><div id="errFirst"></div></td>
+	</tr>
+
+	<tr>
+	<td>Last Name <ru>*<ru>:</td>
+	<td><input type="text" id="last" onblur="funlname()"/></td>
+	<td><div id="errLast"></div></td>
+	</tr>
+
+	<tr>
+	<td>Email <ru>*<ru>:</td>
+	<td><input type="text" id="email" onblur="funemail()"/></td>
+	<td><div id="errEmail"></div></td>
+	</tr>
+
+	<tr>
+	<td>User Id <ru>*<ru>:</td>
+	<td><input type="text" id="uid" onblur="funuid()"/></td>
+	<td><div id="errUid"></div></td>
+	</tr>
+
+	<tr>
+	<td>Password <ru>*<ru>:</td>
+	<td><input type="password" id="password" onblur="funpass()"/></td>
+	<td><div id="errPassword"></div></td>
+	</tr>
+
+	<tr>
+	<td>Confirm Password:</td>
+	<td><input type="password" id="confirm" onblur="funcnfpass()"/></td>
+	<td><div id="errConfirm"></div></td>
+	</tr>
+
+	</table>
+
+<input type="submit" class="btn" value="Create"/>
+<div id="errFinal"></div>
+</form>
+</center>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
